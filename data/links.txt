@@ -1,1 +1,2 @@
-https://www.kaggle.com/datasets/pkdarabi/medical-image-dataset-brain-tumor-detection
+dataset1: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?select=Training
+dataset2: https://www.kaggle.com/datasets/pkdarabi/medical-image-dataset-brain-tumor-detection
