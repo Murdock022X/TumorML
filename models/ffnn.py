@@ -26,5 +26,5 @@ class BrainFFNN:
     def save(self):
         self.model.save('ffnn-weights.keras')
 
-    def load():
+    def load(self):
         self.model.load_weights('ffnn-weights.keras')
