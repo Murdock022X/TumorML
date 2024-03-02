@@ -4,7 +4,7 @@ from data.data import get_dataset
 def make_model():
     model = tf.keras.applications.vgg19.VGG19(
         weights=None,
-        input_shape=(512,512,3),
+        input_shape=(256,256,3),
         classes=4
     )
 
