@@ -161,3 +161,8 @@ cython_debug/
 
 data/dataset1
 data/dataset2
+data/*_data
+
+
+# Saved Models
+*.keras
