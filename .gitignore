@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+share/
 # C extensions
 *.so
 
@@ -116,6 +117,8 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+bin/
+
 # SageMath parsed files
 *.sage.py
 
@@ -166,3 +169,4 @@ data/*_data
 
 # Saved Models
 *.keras
+pyvenv.cfg
