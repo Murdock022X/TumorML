@@ -6,7 +6,7 @@ class BrainFFNN:
     def __init__(self, binary=False):
         self.model = tf.keras.Sequential(
             [
-                tf.keras.layers.Flatten(),
+                tf.keras.layers.Flatten(input_shape=(256, 256, 1,)),
                 tf.keras.layers.Dense(256, input_shape=(65536,), activation='relu'),
                 tf.keras.layers.Dense(128, activation='relu'),
                 tf.keras.layers.Dense(4, activation="softmax")
