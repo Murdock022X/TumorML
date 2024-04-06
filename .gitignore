@@ -162,8 +162,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-data/dataset1
-data/dataset2
+data/
 data/*_data
 
 
